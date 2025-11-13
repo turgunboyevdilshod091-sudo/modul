@@ -10,3 +10,9 @@ today=date.today()
 birthday=date(2008,12,12)
 delta = today - birthday
 print(delta.days)
+
+import os
+os.mkdir("modul2")
+
+import sys
+print(sys.version)
